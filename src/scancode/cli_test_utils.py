@@ -147,7 +147,7 @@ def load_json_result(result_file, strip_dates=False, clean_errs=True):
     if scan_results.get('scancode_version'):
         del scan_results['scancode_version']
 
-    # TODO: remove sort, this should no longer be needed
+    # TODO: remove sort, this should no longer be needed 
     scan_results['files'].sort(key=lambda x: x['path'])
     return scan_results
 
