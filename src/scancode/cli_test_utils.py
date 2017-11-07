@@ -31,7 +31,7 @@ import codecs
 from collections import OrderedDict
 import json
 import os
-
+ 
 from commoncode.system import on_linux
 from scancode_config import scancode_root_dir
 
